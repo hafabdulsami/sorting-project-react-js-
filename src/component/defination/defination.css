@@ -1,0 +1,52 @@
+
+.defination{
+    margin-top: 40px;
+}
+
+.row-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+}
+
+.row-1 div{
+    background-color: black;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    transition: background 0.5s, transform 0.5s;
+    border-radius: 60px;
+    word-break: break-all; 
+    border: 3.5px solid white;
+}
+
+.row-1 div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.row-1 div h2{
+    font-size: 30px;
+    font-weight: 500px;
+    margin-bottom: 15px;
+}
+
+.row-1 div a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.row-1 div:hover{
+    background: white;
+    color: black;
+    transform: translateY(-10px);
+    border-color: rgb(0, 0, 0);
+}

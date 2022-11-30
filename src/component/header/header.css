@@ -1,0 +1,17 @@
+.head{
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.logo{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  width: 15%;
+}
+
+.initial-line{
+  padding-left: 30px;
+}
