@@ -1,7 +1,7 @@
 .head{
-  background-color: black;
   padding: 0;
   margin: 0;
+  box-shadow: 10px 10px 5px #a1a4af;
 }
 
 .logo{
@@ -12,6 +12,3 @@
   width: 15%;
 }
 
-.initial-line{
-  padding-left: 30px;
-}

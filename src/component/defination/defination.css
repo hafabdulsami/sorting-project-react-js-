@@ -8,20 +8,17 @@
     grid-template-columns: repeat(auto-fit , minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
- 
 }
 
 .row-1 div{
-    background-color: black;
+    color: black;
+    border-color: black;
+    background-color: #f5f7ff;
     padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
     border-right: 10px;
+    white-space: normal;
     transition: background 0.5s, transform 0.5s;
     border-radius: 60px;
-    word-break: break-all; 
     border: 3.5px solid white;
 }
 
@@ -45,7 +42,7 @@
 }
 
 .row-1 div:hover{
-    background: white;
+    background: #e6e6fa;
     color: black;
     transform: translateY(-10px);
     border-color: rgb(0, 0, 0);

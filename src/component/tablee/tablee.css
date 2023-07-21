@@ -1,7 +1,6 @@
 table {
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
 }
 .tab{
     padding-bottom: 20px;
@@ -10,11 +9,9 @@ table {
 .tablee th , td{
     border-collapse: separate;
     border-spacing: 10px;
-    border: 2px solid white;
+    border: 2px solid black;
 }
-.tablee tr{
-    border: 6px solid white;
-}
+
 .tablee td{
     text-align: center;
 }

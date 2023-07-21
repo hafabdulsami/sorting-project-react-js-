@@ -20,6 +20,7 @@ const File_reader = () => {
         </div>
         <button onClick={getdata} class="play">Submit</button>
     <div className='circle'>
+      <button className="btn play2">Submit</button>
       <input type="text" id='result' className='play' value="result" />
     </div>
     </comparison>

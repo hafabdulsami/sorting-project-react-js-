@@ -1,93 +1,77 @@
 .check{
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 .btn{
-    position: relative;
-    background-color: black;
-    color: white;
-    width: max-content;
-    display: inline-block;
-    padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    border: 2px solid white;
-    transition: background 0.5s, transform 0.5s;
+  position: relative;
+  background-color:#f5f7ff;
+  color: black;
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 2px solid white;
+  
 }
 
 .btn:hover{
-    background: white;
-    color:  black;
-    border-color: transparent;
-    border-color: black;
-    transform: translateY(-10px);
+  background: #e6e6fa;
+  color:  black;
+  border-color: black;
+  border-color: transparent;
+  border-color: black;
 }
 
 
 .hello{
-    margin-top: 1.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
 }
 
 .btn2{
-    display: block;
-    margin: 50px auto;
-    color: white;
-    background-color: black;
-    width: fit-content;
-    border: 2px solid white;
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: background 0.5s, transform 0.5s;
+  display: block;
+  margin: 50px auto;
+  color: black;
+  background-color:#f5f7ff;
+  width: fit-content;
+  border: 2px solid white;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.5s, transform 0.5s;
 }
 
 .btn2:hover{
-    background: white;
-    color:  black;
-    border-color: black;
-    transform: translateY(-10px);
+  background: white;
+  color:  black;
+  border-color: black;
+  transform: translateY(-10px);
 }
 
 .play {
-    display: block;
-    margin: 50px auto;
-    color: white;
-    background-color: black;
-    text-align: center;
-    width: fit-content;
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    --border-size: 3px;
-    --border-angle: 0turn;
-    background-image: conic-gradient(from var(--border-angle), black, black 50%, black), conic-gradient(from var(--border-angle), transparent 15%, white, rgb(102, 98, 98));
-    background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-animation: bg-spin 3s linear infinite;
-            animation: bg-spin 3s linear infinite;
-  }
-  @-webkit-keyframes bg-spin {
-    to {
-      --border-angle: 1turn;
-    }
-  }
-  @keyframes bg-spin {
-    to {
-      --border-angle: 1turn;
-    }
-  }
-  .box:hover {
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
-  }
-  
-  @property --border-angle {
-    syntax: "<angle>";
-    inherits: true;
-    initial-value: 0turn;
-  }
+position: relative;
+background-color:#f5f7ff;
+color: black;
+width: max-content;
+display: inline-block;
+padding: 0.75rem 1.2rem;
+border-radius: 0.4rem;
+cursor: pointer;
+border: 2px solid white;
+}
+
+.circle{
+display: flex;
+margin: 20px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.play2{
+margin-bottom: 10px;
+}
