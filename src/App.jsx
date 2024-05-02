@@ -9,6 +9,13 @@ const App = () => {
     <>
       <Header />
       <div className="Main-page">
+        <p className="initial-line">
+          A Sorting Algorithm is used to rearrange a given array or list of
+          elements according to a comparison operator on the elements. The
+          comparison operator is used to decide the new order of elements in the
+          respective data structure. Different type of algorithm are given
+          below:
+        </p>
         <Defination />
         <File_reader />
         <Tablee />
